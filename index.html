@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard de Chamados TI — Jan/Fev/Mar/Abr 2026</title>
+    <title>Dashboard de Chamados — TI · Gimma Engenharia</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <header>
       <div class="hd-left">
-        <img class="hd-logo" src="gimma-logo.png" alt="Gimma Engenharia" />
+        <img src="gimma-logo.png" alt="Gimma Engenharia" class="hd-logo" />
         <div class="hd-divider"></div>
         <div class="hd-text">
           <h1>Dashboard de Chamados — TI</h1>
@@ -21,52 +21,46 @@
     </header>
 
     <div class="wrap">
-      <div class="sec-label">Visão Geral do Trimestre</div>
+      <!-- KPIs -->
+      <div class="sec-label">Visão Geral do Quadrimestre</div>
       <div class="kpi-row">
         <div class="kpi c1">
           <div class="kpi-ico">🎫</div>
           <div class="kpi-lbl">Total de Chamados</div>
           <div class="kpi-val" id="kTotal">—</div>
-          <div class="kpi-sub">Jan + Fev + Mar</div>
+          <div class="kpi-sub">Jan + Fev + Mar + Abr</div>
         </div>
+
         <div class="kpi c2">
           <div class="kpi-ico">✅</div>
           <div class="kpi-lbl">Taxa de Resolução</div>
           <div class="kpi-val" id="kTaxa">—</div>
           <div class="kpi-sub">chamados finalizados</div>
         </div>
+
         <div class="kpi c3">
           <div class="kpi-ico">⏱️</div>
           <div class="kpi-lbl">Horas Investidas</div>
           <div class="kpi-val" id="kHoras">—</div>
-          <div class="kpi-sub">soma dos 3 meses</div>
+          <div class="kpi-sub">soma dos 4 meses</div>
         </div>
+
         <div class="kpi c4">
           <div class="kpi-ico">📈</div>
           <div class="kpi-lbl">Mês mais movimentado</div>
-          <div
-            class="kpi-val"
-            style="font-size: 1.2rem; padding-top: 6px"
-            id="kMes"
-          >
-            —
-          </div>
+          <div class="kpi-val" id="kMes">—</div>
           <div class="kpi-sub" id="kMesSub">—</div>
         </div>
+
         <div class="kpi c5">
           <div class="kpi-ico">🏷️</div>
           <div class="kpi-lbl">Categoria #1</div>
-          <div
-            class="kpi-val"
-            style="font-size: 0.95rem; padding-top: 10px; line-height: 1.3"
-            id="kCat"
-          >
-            —
-          </div>
+          <div class="kpi-val" id="kCat">—</div>
           <div class="kpi-sub" id="kCatSub">—</div>
         </div>
       </div>
 
+      <!-- CARDS MENSAIS -->
       <div class="sec-label">Resumo por Mês</div>
       <div class="month-row">
         <div class="mcard jan">
@@ -100,6 +94,7 @@
             ><span class="val" id="j7">—</span>
           </div>
         </div>
+
         <div class="mcard feb">
           <div class="mcard-title">🗓 Fevereiro</div>
           <div class="mstat">
@@ -131,6 +126,7 @@
             ><span class="val" id="f7">—</span>
           </div>
         </div>
+
         <div class="mcard mar">
           <div class="mcard-title">🗓 Março</div>
           <div class="mstat">
@@ -162,20 +158,54 @@
             ><span class="val" id="m7">—</span>
           </div>
         </div>
+
+        <div class="mcard abr">
+          <div class="mcard-title">🗓 Abril</div>
+          <div class="mstat">
+            <span class="lbl">Total de chamados</span
+            ><span class="val" id="a1">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Finalizados</span
+            ><span class="val" id="a2">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Não finalizados</span
+            ><span class="val" id="a3">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Horas gastas</span
+            ><span class="val" id="a4">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Analista mais ativo</span
+            ><span class="val" id="a5">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Categoria dominante</span
+            ><span class="val" id="a6">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Dias atendidos</span
+            ><span class="val" id="a7">—</span>
+          </div>
+        </div>
       </div>
 
+      <!-- GRÁFICOS -->
       <div class="sec-label">Análise Mensal</div>
+
       <div class="g2">
         <div class="chart-card">
           <h3>
-            <span class="dot" style="background: var(--accent)"></span>Volume de
+            <span class="dot" style="background: #4f8ef7"></span> Volume de
             Chamados por Mês
           </h3>
           <div class="cw"><canvas id="cVolume"></canvas></div>
         </div>
         <div class="chart-card">
           <h3>
-            <span class="dot" style="background: var(--accent4)"></span>Horas
+            <span class="dot" style="background: #f5c842"></span> Horas
             Investidas por Mês
           </h3>
           <div class="cw"><canvas id="cHoras"></canvas></div>
@@ -185,32 +215,32 @@
       <div class="g2">
         <div class="chart-card">
           <h3>
-            <span class="dot" style="background: var(--accent3)"></span>Top 10
-            Categorias — Trimestre
+            <span class="dot" style="background: #f4714a"></span> Top 10
+            Categorias — Quadrimestre
           </h3>
           <div class="cw tall"><canvas id="cCats"></canvas></div>
         </div>
         <div class="chart-card">
           <h3>
-            <span class="dot" style="background: var(--accent2)"></span>Chamados
-            por Analista
+            <span class="dot" style="background: #8b5cf6"></span> Chamados por
+            Analista
           </h3>
-          <div id="anaDiv" style="padding-top: 10px"></div>
+          <div id="anaDiv" style="padding-top: 8px"></div>
         </div>
       </div>
 
       <div class="g2">
         <div class="chart-card">
           <h3>
-            <span class="dot" style="background: var(--accent5)"></span>Status
-            dos Chamados por Mês
+            <span class="dot" style="background: #10d9a0"></span> Status dos
+            Chamados por Mês
           </h3>
           <div class="cw"><canvas id="cStatus"></canvas></div>
         </div>
         <div class="chart-card">
           <h3>
-            <span class="dot" style="background: var(--accent3)"></span
-            >Distribuição por Categoria (Top 6)
+            <span class="dot" style="background: #38bdf8"></span> Distribuição
+            por Categoria (Top 6)
           </h3>
           <div class="cw"><canvas id="cPizza"></canvas></div>
         </div>
@@ -219,27 +249,38 @@
       <div class="g1">
         <div class="chart-card">
           <h3>
-            <span class="dot" style="background: var(--accent)"></span>Top 6
+            <span class="dot" style="background: #a78bfa"></span> Top 6
             Categorias — Comparativo Mensal
           </h3>
-          <div class="cw"><canvas id="cCompare"></canvas></div>
+          <div class="cw tall"><canvas id="cCompare"></canvas></div>
         </div>
       </div>
 
+      <!-- TABELA -->
       <div class="sec-label">Ranking de Categorias</div>
-      <div class="chart-card g1">
+      <div class="chart-card">
         <h3>
-          <span class="dot" style="background: var(--accent2)"></span
-          >Detalhamento por Categoria e Mês
+          <span class="dot" style="background: #fb7185"></span> Detalhamento por
+          Categoria e Mês
         </h3>
-        <table class="tbl" id="catTbl"></table>
+        <div class="tbl-wrap">
+          <table class="tbl" id="catTbl"></table>
+        </div>
       </div>
     </div>
 
     <footer>
-      Dashboard de Chamados · <span>Gimma Engenharia</span> · Janeiro — Abril
-      2026 · Desenvolvido por <span>Guilherme Padial</span> · Analista de Suporte
-      TI
+      Dashboard de Chamados · Gimma Engenharia ·
+      <span>Janeiro — Abril 2026</span><br />
+      Desenvolvido por
+      <span
+        ><a
+          href="https://www.linkedin.com/in/guilhermepadial/"
+          style="color: var(--accent)"
+          >Guilherme Padial</a
+        ></span
+      >
+      · Analista de Suporte TI
     </footer>
 
     <script src="script.js"></script>

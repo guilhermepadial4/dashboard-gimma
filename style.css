@@ -13,7 +13,7 @@
   --jan: #9b1b1b;
   --feb: #c0392b;
   --mar: #2980b9;
-  --abr: #16a085;
+  --abr: #d35400;
 }
 
 * {
@@ -204,21 +204,9 @@ header {
 /* ── MONTH CARDS ─────────────────────────── */
 .month-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Mudado para 4 colunas */
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   margin-bottom: 24px;
-}
-
-.mcard.abr {
-  border-top-color: var(--abr);
-}
-.mcard.abr .mcard-title {
-  color: var(--abr);
-}
-
-.pill.abr {
-  background: rgba(22, 160, 133, 0.11);
-  color: #16a085;
 }
 
 .mcard {
@@ -238,6 +226,9 @@ header {
 .mcard.mar {
   border-top-color: var(--mar);
 }
+.mcard.abr {
+  border-top-color: var(--abr);
+}
 
 .mcard-title {
   font-size: 0.72rem;
@@ -254,6 +245,9 @@ header {
 }
 .mcard.mar .mcard-title {
   color: var(--mar);
+}
+.mcard.abr .mcard-title {
+  color: var(--abr);
 }
 
 .mstat {
@@ -333,7 +327,7 @@ header {
   margin-bottom: 14px;
 }
 .ana-name {
-  width: 82px;
+  width: 110px;
   font-size: 0.78rem;
   color: var(--muted);
   flex-shrink: 0;
@@ -377,7 +371,7 @@ header {
 
 .tbl {
   width: 100%;
-  min-width: 640px;
+  min-width: 700px;
   border-collapse: collapse;
 }
 
@@ -427,6 +421,10 @@ header {
   background: rgba(41, 128, 185, 0.11);
   color: #2471a3;
 }
+.pill.abr {
+  background: rgba(211, 84, 0, 0.11);
+  color: #d35400;
+}
 
 /* ── FOOTER ──────────────────────────────── */
 footer {
@@ -445,14 +443,17 @@ footer span {
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ══════════════════════════════════════════
-   RESPONSIVO — TABLET (≤ 1100px)
+   RESPONSIVO — TABLET (≤ 1200px)
 ══════════════════════════════════════════ */
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .kpi-row {
     grid-template-columns: repeat(3, 1fr);
   }
-
   .month-row {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -495,12 +496,6 @@ footer span {
   }
   .cw.tall {
     height: 260px;
-  }
-}
-
-@media (max-width: 600px) {
-  .month-row {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -560,7 +555,7 @@ footer span {
   }
 
   .ana-name {
-    width: 62px;
+    width: 80px;
     font-size: 0.72rem;
   }
   .ana-fill {

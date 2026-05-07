@@ -1,6 +1,3 @@
-// ════════════════════════════════════════════════════
-// DADOS COMPLETOS — JANEIRO (161 registros)
-// ════════════════════════════════════════════════════
 const JAN = [
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
@@ -26,15 +23,117 @@ const JAN = [
   { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 1, ana: "Leonardo" },
   { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" }, // Iolanda Oliveira
-  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leilton" }, // João
-  { cat: "Encaminhamento", fin: "Sim", h: 0.25, ana: "Leilton" }, // Fernando Melo
-  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leonardo" }, // Edicarlo Trentin
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Encaminhamento", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 2, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Equipamento", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Termo", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Termo", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Termo", fin: "Sim", h: 3, ana: "Leilton" },
+  { cat: "Termo", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 2.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 3, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Equipamento", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "No-ip", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "No-ip", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 2.5, ana: "Leilton" },
+  { cat: "Rede", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 3, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 3, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Equipamento", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 3, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 2, ana: "Leilton" },
 ];
 
-// ════════════════════════════════════════════════════
-// DADOS COMPLETOS — FEVEREIRO (116 registros)
-// ════════════════════════════════════════════════════
 const FEV = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
@@ -140,11 +239,12 @@ const FEV = [
   { cat: "Software", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "RAteio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Gestão", fin: "Sim", h: 3, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
@@ -171,11 +271,9 @@ const FEV = [
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Outlook", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 0.5, ana: "Leilton" },
 ];
 
-// ════════════════════════════════════════════════════
-// DADOS REAIS — MARÇO (191 registros)
-// ════════════════════════════════════════════════════
 const MAR = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Desligamento de Usuário", fin: "Sim", h: 1, ana: "Leilton" },
@@ -185,7 +283,7 @@ const MAR = [
   { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Desligamento de Usuário", fin: "Sim", h: 2, ana: "Leilton" },
-  { cat: "Hardware", fin: "Não", h: 2, ana: "Leilton e Leonardo" },
+  { cat: "Hardware", fin: "Não", h: 2, ana: "Leilton" },
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "E-mail", fin: "Sim", h: 0.25, ana: "Leilton" },
@@ -230,7 +328,6 @@ const MAR = [
   { cat: "Software", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 3, ana: "Leilton" },
   { cat: "Software", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Desligamento de Usuário", fin: "Sim", h: 2, ana: "Leilton" },
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
@@ -249,12 +346,11 @@ const MAR = [
   { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Impressora", fin: "Sim", h: 2, ana: "Leilton" },
   { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Provisionamento de usuário", fin: "Sim", h: 4, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Software", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Software", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 2, ana: "Leilton" },
   { cat: "Software", fin: "Sim", h: 0.5, ana: "Leilton" },
@@ -270,7 +366,6 @@ const MAR = [
   { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Hardware", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Hardware", fin: "Sim", h: 1.5, ana: "Leilton" },
   { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
@@ -301,8 +396,6 @@ const MAR = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
@@ -340,12 +433,23 @@ const MAR = [
   { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Software", fin: "Sim", h: 1, ana: "Leilton" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Nydus", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 3, ana: "Leilton" },
+  { cat: "Click Compliance", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Infra", fin: "Sim", h: 2, ana: "Leilton" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
@@ -354,10 +458,9 @@ const MAR = [
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Nydus", fin: "Sim", h: 0.25, ana: "Leilton" },
   { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 2, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Provisionamento de usuário", fin: "Sim", h: 4, ana: "Leilton" },
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
@@ -370,6 +473,211 @@ const MAR = [
   { cat: "Click Compliance", fin: "Sim", h: 0.25, ana: "Leilton" },
 ];
 
+// ════════════════════════════════════════════════════
+// DADOS COMPLETOS — ABRIL (113 registros)
+// ════════════════════════════════════════════════════
+const ABR = [
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Termos", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Suprisul", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Fora do escopo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Termos", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Auxilio", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Periférico", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "MS365", fin: "Sim", h: 2, ana: "Leonardo" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 1.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rede", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Termos", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Tablet", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 6, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Exchange", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Tablet", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Segurança", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Segurança", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Suprisul", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.15, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 2.75, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 2, ana: "Leonardo" },
+  { cat: "Impressora", fin: "Sim", h: 2, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 6, ana: "Leilton" },
+];
 
 // ════════════════════════════════════════════════════
 // FUNÇÕES AUXILIARES
@@ -405,31 +713,38 @@ function topKey(obj) {
 // ════════════════════════════════════════════════════
 const jT = JAN.length,
   fT = FEV.length,
-  mT = MAR.length;
-const total = jT + fT + mT;
+  mT = MAR.length,
+  aT = ABR.length;
+const total = jT + fT + mT + aT;
 
 const jFin = countFin(JAN, "Sim"),
   fFin = countFin(FEV, "Sim"),
-  mFin = countFin(MAR, "Sim");
+  mFin = countFin(MAR, "Sim"),
+  aFin = countFin(ABR, "Sim");
 const jNF = countFin(JAN, "Não"),
   fNF = countFin(FEV, "Não"),
-  mNF = countFin(MAR, "Não");
-const totalFin = jFin + fFin + mFin;
+  mNF = countFin(MAR, "Não"),
+  aNF = countFin(ABR, "Não");
+const totalFin = jFin + fFin + mFin + aFin;
 const taxa = Math.round((totalFin / total) * 100);
 
 const jH = sumH(JAN),
   fH = sumH(FEV),
-  mH = sumH(MAR);
-const totalH = +(jH + fH + mH).toFixed(1);
+  mH = sumH(MAR),
+  aH = sumH(ABR);
+const totalH = +(jH + fH + mH + aH).toFixed(1);
 
 const jCM = catMap(JAN),
   fCM = catMap(FEV),
-  mCM = catMap(MAR);
-const allCM = catMap([...JAN, ...FEV, ...MAR]);
+  mCM = catMap(MAR),
+  aCM = catMap(ABR);
+const allCM = catMap([...JAN, ...FEV, ...MAR, ...ABR]);
+
 const jAM = anaMap(JAN),
   fAM = anaMap(FEV),
-  mAM = anaMap(MAR);
-const allAM = anaMap([...JAN, ...FEV, ...MAR]);
+  mAM = anaMap(MAR),
+  aAM = anaMap(ABR);
+const allAM = anaMap([...JAN, ...FEV, ...MAR, ...ABR]);
 
 const top10 = topN(allCM, 10);
 const top6keys = topN(allCM, 6).map((e) => e[0]);
@@ -438,6 +753,7 @@ const meses = [
   { n: "Janeiro", v: jT },
   { n: "Fevereiro", v: fT },
   { n: "Março", v: mT },
+  { n: "Abril", v: aT },
 ];
 const topMes = [...meses].sort((a, b) => b.v - a.v)[0];
 
@@ -477,6 +793,13 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["m5", topKey(mAM)],
   ["m6", topKey(mCM)],
   ["m7", "21 dias"],
+  ["a1", aT],
+  ["a2", aFin],
+  ["a3", aNF],
+  ["a4", aH + "h"],
+  ["a5", topKey(aAM)],
+  ["a6", topKey(aCM)],
+  ["a7", "20 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
   if (el) el.textContent = val;
@@ -489,21 +812,22 @@ Chart.defaults.color = "#7880a0";
 Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
 Chart.defaults.font.size = 12;
 
-const grid = "rgba(255,255,255,0.06)";
+const grid = "rgba(0,0,0,0.05)";
 const janC = "#4f8ef7";
 const fevC = "#8b5cf6";
 const marC = "#10d9a0";
+const abrC = "#d35400";
 
 // ─── VOLUME POR MÊS ──────────────────────────────
 new Chart(document.getElementById("cVolume"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril"],
     datasets: [
       {
         label: "Chamados",
-        data: [jT, fT, mT],
-        backgroundColor: [janC, fevC, marC],
+        data: [jT, fT, mT, aT],
+        backgroundColor: [janC, fevC, marC, abrC],
         borderRadius: 8,
         borderSkipped: false,
       },
@@ -524,15 +848,16 @@ new Chart(document.getElementById("cVolume"), {
 new Chart(document.getElementById("cHoras"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril"],
     datasets: [
       {
         label: "Horas",
-        data: [jH, fH, mH],
+        data: [jH, fH, mH, aH],
         backgroundColor: [
           "rgba(245,200,66,.85)",
-          "rgba(245,200,66,.60)",
-          "rgba(245,200,66,.40)",
+          "rgba(245,200,66,.65)",
+          "rgba(245,200,66,.45)",
+          "rgba(211,84,0,.75)",
         ],
         borderRadius: 8,
         borderSkipped: false,
@@ -591,7 +916,7 @@ new Chart(document.getElementById("cCats"), {
 // ─── ANALISTAS — BARRAS CUSTOMIZADAS ─────────────
 const anaDiv = document.getElementById("anaDiv");
 const anaMax = Math.max(...Object.values(allAM));
-const anaColors = ["#4f8ef7", "#8b5cf6", "#10d9a0", "#f5c842"];
+const anaColors = ["#4f8ef7", "#8b5cf6", "#10d9a0", "#d35400", "#f5c842"];
 let anaIdx = 0;
 
 Object.entries(allAM)
@@ -614,18 +939,18 @@ Object.entries(allAM)
 new Chart(document.getElementById("cStatus"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril"],
     datasets: [
       {
         label: "Finalizados",
-        data: [jFin, fFin, mFin],
+        data: [jFin, fFin, mFin, aFin],
         backgroundColor: marC,
         borderRadius: 6,
         borderSkipped: false,
       },
       {
         label: "Não Finalizados",
-        data: [jNF, fNF, mNF],
+        data: [jNF, fNF, mNF, aNF],
         backgroundColor: "#f4714a",
         borderRadius: 6,
         borderSkipped: false,
@@ -665,7 +990,7 @@ new Chart(document.getElementById("cPizza"), {
         data: top6data,
         backgroundColor: pizzaColors,
         borderWidth: 2,
-        borderColor: "#161926",
+        borderColor: "#ffffff",
       },
     ],
   },
@@ -710,6 +1035,13 @@ new Chart(document.getElementById("cCompare"), {
         borderRadius: 5,
         borderSkipped: false,
       },
+      {
+        label: "Abril",
+        data: top6keys.map((k) => aCM[k] || 0),
+        backgroundColor: abrC,
+        borderRadius: 5,
+        borderSkipped: false,
+      },
     ],
   },
   options: {
@@ -728,7 +1060,12 @@ new Chart(document.getElementById("cCompare"), {
 // ─── TABELA: RANKING DE CATEGORIAS ───────────────
 (function buildTable() {
   const allCats = [
-    ...new Set([...Object.keys(jCM), ...Object.keys(fCM), ...Object.keys(mCM)]),
+    ...new Set([
+      ...Object.keys(jCM),
+      ...Object.keys(fCM),
+      ...Object.keys(mCM),
+      ...Object.keys(aCM),
+    ]),
   ];
 
   const rows = allCats
@@ -737,7 +1074,9 @@ new Chart(document.getElementById("cCompare"), {
       jan: jCM[cat] || 0,
       feb: fCM[cat] || 0,
       mar: mCM[cat] || 0,
-      tot: (jCM[cat] || 0) + (fCM[cat] || 0) + (mCM[cat] || 0),
+      abr: aCM[cat] || 0,
+      tot:
+        (jCM[cat] || 0) + (fCM[cat] || 0) + (mCM[cat] || 0) + (aCM[cat] || 0),
     }))
     .sort((a, b) => b.tot - a.tot)
     .slice(0, 15);
@@ -753,6 +1092,7 @@ new Chart(document.getElementById("cCompare"), {
         <th>Janeiro</th>
         <th>Fevereiro</th>
         <th>Março</th>
+        <th>Abril</th>
         <th>Total</th>
         <th>Distribuição</th>
       </tr>
@@ -767,6 +1107,7 @@ new Chart(document.getElementById("cCompare"), {
           <td>${r.jan > 0 ? `<span class="pill jan">${r.jan}</span>` : "—"}</td>
           <td>${r.feb > 0 ? `<span class="pill feb">${r.feb}</span>` : "—"}</td>
           <td>${r.mar > 0 ? `<span class="pill mar">${r.mar}</span>` : "—"}</td>
+          <td>${r.abr > 0 ? `<span class="pill abr">${r.abr}</span>` : "—"}</td>
           <td style="font-weight:800;color:var(--text)">${r.tot}</td>
           <td>
             <div style="background:var(--card2);border-radius:4px;height:6px;width:120px;overflow:hidden;display:inline-block;vertical-align:middle">
