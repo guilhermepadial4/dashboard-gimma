@@ -874,6 +874,198 @@ const MAI = [
   { cat: "Infra", fin: "Sim", h: 2, ana: "Leilton" },
 ];
 
+const JUN = [
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4.0, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Infra", fin: "Sim", h: 1.0, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Office", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Celular", fin: "Sim", h: 2.0, ana: "Leonardo" },
+  { cat: "Celular", fin: "Sim", h: 2.0, ana: "Leonardo" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 1.0, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Rede", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Infra", fin: "Sim", h: 3.0, ana: "Leonardo" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 2.5, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 8.0, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 1.0, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Office", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4.0, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Celular", fin: "Sim", h: 6.0, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestao", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 0.75, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 2.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Office", fin: "Sim", h: 3.0, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Segurança", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+];
+
 // ════════════════════════════════════════════════════
 // FUNÇÕES AUXILIARES
 // ════════════════════════════════════════════════════
@@ -904,48 +1096,54 @@ function topKey(obj) {
 }
 
 // ════════════════════════════════════════════════════
-// CÁLCULOS
+// CÁLCULOS GERAIS
 // ════════════════════════════════════════════════════
 const jT = JAN.length,
   fT = FEV.length,
   mT = MAR.length,
   aT = ABR.length,
-  maT = MAI.length;
-const total = jT + fT + mT + aT + maT;
+  maT = MAI.length,
+  junT = JUN.length;
+const total = jT + fT + mT + aT + maT + junT;
 
 const jFin = countFin(JAN, "Sim"),
   fFin = countFin(FEV, "Sim"),
   mFin = countFin(MAR, "Sim"),
   aFin = countFin(ABR, "Sim"),
-  maFin = countFin(MAI, "Sim");
+  maFin = countFin(MAI, "Sim"),
+  junFin = countFin(JUN, "Sim");
 const jNF = countFin(JAN, "Não"),
   fNF = countFin(FEV, "Não"),
   mNF = countFin(MAR, "Não"),
   aNF = countFin(ABR, "Não"),
-  maNF = countFin(MAI, "Não");
-const totalFin = jFin + fFin + mFin + aFin + maFin;
+  maNF = countFin(MAI, "Não"),
+  junNF = countFin(JUN, "Não");
+const totalFin = jFin + fFin + mFin + aFin + maFin + junFin;
 const taxa = Math.round((totalFin / total) * 100);
 
 const jH = sumH(JAN),
   fH = sumH(FEV),
   mH = sumH(MAR),
   aH = sumH(ABR),
-  maH = sumH(MAI);
-const totalH = +(jH + fH + mH + aH + maH).toFixed(1);
+  maH = sumH(MAI),
+  junH = sumH(JUN);
+const totalH = +(jH + fH + mH + aH + maH + junH).toFixed(1);
 
 const jCM = catMap(JAN),
   fCM = catMap(FEV),
   mCM = catMap(MAR),
   aCM = catMap(ABR),
-  maCM = catMap(MAI);
-const allCM = catMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI]);
+  maCM = catMap(MAI),
+  junCM = catMap(JUN);
+const allCM = catMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN]);
 
 const jAM = anaMap(JAN),
   fAM = anaMap(FEV),
   mAM = anaMap(MAR),
   aAM = anaMap(ABR),
-  maAM = anaMap(MAI);
-const allAM = anaMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI]);
+  maAM = anaMap(MAI),
+  junAM = anaMap(JUN);
+const allAM = anaMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN]);
 
 const top10 = topN(allCM, 10);
 const top6keys = topN(allCM, 6).map((e) => e[0]);
@@ -956,6 +1154,7 @@ const meses = [
   { n: "Março", v: mT },
   { n: "Abril", v: aT },
   { n: "Maio", v: maT },
+  { n: "Junho", v: junT },
 ];
 const topMes = [...meses].sort((a, b) => b.v - a.v)[0];
 
@@ -1009,6 +1208,13 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["ma5", topKey(maAM)],
   ["ma6", topKey(maCM)],
   ["ma7", "21 dias"],
+  ["jun1", junT],
+  ["jun2", junFin],
+  ["jun3", junNF],
+  ["jun4", junH + "h"],
+  ["jun5", topKey(junAM)],
+  ["jun6", topKey(junCM)],
+  ["jun7", "21 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
   if (el) el.textContent = val;
@@ -1027,17 +1233,18 @@ const fevC = "#8b5cf6";
 const marC = "#10d9a0";
 const abrC = "#d35400";
 const maiC = "#16a085";
+const junC = "#8e44ad"; // Nova Cor
 
 // ─── VOLUME POR MÊS ──────────────────────────────
 new Chart(document.getElementById("cVolume"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
     datasets: [
       {
         label: "Chamados",
-        data: [jT, fT, mT, aT, maT],
-        backgroundColor: [janC, fevC, marC, abrC, maiC],
+        data: [jT, fT, mT, aT, maT, junT],
+        backgroundColor: [janC, fevC, marC, abrC, maiC, junC],
         borderRadius: 8,
         borderSkipped: false,
       },
@@ -1058,17 +1265,18 @@ new Chart(document.getElementById("cVolume"), {
 new Chart(document.getElementById("cHoras"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
     datasets: [
       {
         label: "Horas",
-        data: [jH, fH, mH, aH, maH],
+        data: [jH, fH, mH, aH, maH, junH],
         backgroundColor: [
           "rgba(245,200,66,.85)",
           "rgba(245,200,66,.65)",
           "rgba(245,200,66,.45)",
           "rgba(211,84,0,.75)",
           "rgba(22,160,133,.80)",
+          "rgba(142,68,173,.80)",
         ],
         borderRadius: 8,
         borderSkipped: false,
@@ -1127,9 +1335,17 @@ new Chart(document.getElementById("cCats"), {
 // ─── ANALISTAS — BARRAS CUSTOMIZADAS ─────────────
 const anaDiv = document.getElementById("anaDiv");
 const anaMax = Math.max(...Object.values(allAM));
-const anaColors = ["#4f8ef7", "#8b5cf6", "#10d9a0", "#d35400", "#f5c842"];
+const anaColors = [
+  "#4f8ef7",
+  "#8b5cf6",
+  "#10d9a0",
+  "#d35400",
+  "#f5c842",
+  "#8e44ad",
+];
 let anaIdx = 0;
 
+anaDiv.innerHTML = "";
 Object.entries(allAM)
   .sort((a, b) => b[1] - a[1])
   .forEach(([nome, qtd]) => {
@@ -1139,9 +1355,7 @@ Object.entries(allAM)
     anaDiv.innerHTML += `
     <div class="ana-row">
       <div class="ana-name">${nome}</div>
-      <div class="ana-track">
-        <div class="ana-fill" style="width:${pct}%;background:${cor}">${qtd}</div>
-      </div>
+      <div class="ana-track"><div class="ana-fill" style="width:${pct}%;background:${cor}">${qtd}</div></div>
       <div class="ana-count" style="color:${cor}">${qtd}</div>
     </div>`;
   });
@@ -1150,18 +1364,18 @@ Object.entries(allAM)
 new Chart(document.getElementById("cStatus"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
     datasets: [
       {
         label: "Finalizados",
-        data: [jFin, fFin, mFin, aFin, maFin],
+        data: [jFin, fFin, mFin, aFin, maFin, junFin],
         backgroundColor: marC,
         borderRadius: 6,
         borderSkipped: false,
       },
       {
         label: "Não Finalizados",
-        data: [jNF, fNF, mNF, aNF, maNF],
+        data: [jNF, fNF, mNF, aNF, maNF, junNF],
         backgroundColor: "#f4714a",
         borderRadius: 6,
         borderSkipped: false,
@@ -1260,6 +1474,13 @@ new Chart(document.getElementById("cCompare"), {
         borderRadius: 5,
         borderSkipped: false,
       },
+      {
+        label: "Junho",
+        data: top6keys.map((k) => junCM[k] || 0),
+        backgroundColor: junC,
+        borderRadius: 5,
+        borderSkipped: false,
+      },
     ],
   },
   options: {
@@ -1284,6 +1505,7 @@ new Chart(document.getElementById("cCompare"), {
       ...Object.keys(mCM),
       ...Object.keys(aCM),
       ...Object.keys(maCM),
+      ...Object.keys(junCM),
     ]),
   ];
 
@@ -1295,12 +1517,14 @@ new Chart(document.getElementById("cCompare"), {
       mar: mCM[cat] || 0,
       abr: aCM[cat] || 0,
       mai: maCM[cat] || 0,
+      jun: junCM[cat] || 0,
       tot:
         (jCM[cat] || 0) +
         (fCM[cat] || 0) +
         (mCM[cat] || 0) +
         (aCM[cat] || 0) +
-        (maCM[cat] || 0),
+        (maCM[cat] || 0) +
+        (junCM[cat] || 0),
     }))
     .sort((a, b) => b.tot - a.tot)
     .slice(0, 15);
@@ -1313,11 +1537,7 @@ new Chart(document.getElementById("cCompare"), {
       <tr>
         <th>#</th>
         <th>Categoria</th>
-        <th>Janeiro</th>
-        <th>Fevereiro</th>
-        <th>Março</th>
-        <th>Abril</th>
-        <th>Maio</th>
+        <th>Jan</th><th>Fev</th><th>Mar</th><th>Abr</th><th>Mai</th><th>Jun</th>
         <th>Total</th>
         <th>Distribuição</th>
       </tr>
@@ -1334,6 +1554,7 @@ new Chart(document.getElementById("cCompare"), {
           <td>${r.mar > 0 ? `<span class="pill mar">${r.mar}</span>` : "—"}</td>
           <td>${r.abr > 0 ? `<span class="pill abr">${r.abr}</span>` : "—"}</td>
           <td>${r.mai > 0 ? `<span class="pill mai">${r.mai}</span>` : "—"}</td>
+          <td>${r.jun > 0 ? `<span class="pill jun">${r.jun}</span>` : "—"}</td>
           <td style="font-weight:800;color:var(--text)">${r.tot}</td>
           <td>
             <div style="background:var(--card2);border-radius:4px;height:6px;width:120px;overflow:hidden;display:inline-block;vertical-align:middle">

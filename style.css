@@ -15,6 +15,7 @@
   --mar: #2980b9;
   --abr: #d35400;
   --mai: #16a085;
+  --jun: #8e44ad; /* Nova cor para Junho */
 }
 
 * {
@@ -205,7 +206,7 @@ header {
 /* ── MONTH CARDS ─────────────────────────── */
 .month-row {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr); /* 6 meses agora */
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -233,6 +234,9 @@ header {
 .mcard.mai {
   border-top-color: var(--mai);
 }
+.mcard.jun {
+  border-top-color: var(--jun);
+} /* Novo */
 
 .mcard-title {
   font-size: 0.72rem;
@@ -256,6 +260,9 @@ header {
 .mcard.mai .mcard-title {
   color: var(--mai);
 }
+.mcard.jun .mcard-title {
+  color: var(--jun);
+} /* Novo */
 
 .mstat {
   display: flex;
@@ -436,6 +443,10 @@ header {
   background: rgba(22, 160, 133, 0.11);
   color: #16a085;
 }
+.pill.jun {
+  background: rgba(142, 68, 173, 0.11);
+  color: #8e44ad;
+} /* Novo */
 
 /* ── FOOTER ──────────────────────────────── */
 footer {
@@ -453,7 +464,6 @@ footer span {
   color: var(--accent);
   font-weight: 700;
 }
-
 a {
   text-decoration: none;
 }
@@ -466,7 +476,10 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
   .month-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* 6 meses divididos em duas linhas */
   }
 }
 
@@ -489,7 +502,6 @@ a {
   .hd-text h1 {
     font-size: 0.88rem;
   }
-
   .kpi-row {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -523,17 +535,14 @@ a {
   .hd-text h1 {
     font-size: 0.82rem;
   }
-
   .period-pill {
     font-size: 0.7rem;
     padding: 6px 14px;
     align-self: flex-start;
   }
-
   .wrap {
     padding: 14px 10px;
   }
-
   .kpi-row {
     grid-template-columns: 1fr 1fr;
     gap: 8px;
@@ -547,25 +556,21 @@ a {
   .kpi-ico {
     display: none;
   }
-
   .month-row {
     grid-template-columns: 1fr;
   }
-
   .chart-card {
     padding: 14px 12px;
   }
   .chart-card h3 {
     font-size: 0.78rem;
   }
-
   .cw {
     height: 190px;
   }
   .cw.tall {
     height: 230px;
   }
-
   .ana-name {
     width: 80px;
     font-size: 0.72rem;
@@ -573,13 +578,11 @@ a {
   .ana-fill {
     font-size: 0.7rem;
   }
-
   .tbl th,
   .tbl td {
     padding: 8px 10px;
     font-size: 0.76rem;
   }
-
   footer {
     font-size: 0.67rem;
   }
