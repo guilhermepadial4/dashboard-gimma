@@ -455,9 +455,6 @@ const MAR = [
   { cat: "Click Compliance", fin: "Sim", h: 0.25, ana: "Leilton" },
 ];
 
-// ════════════════════════════════════════════════════
-// DADOS COMPLETOS — ABRIL (113 registros)
-// ════════════════════════════════════════════════════
 const ABR = [
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
   { cat: "Termos", fin: "Sim", h: 0.25, ana: "Leonardo" },
@@ -661,9 +658,6 @@ const ABR = [
   { cat: "Infra", fin: "Sim", h: 6, ana: "Leilton" },
 ];
 
-// ════════════════════════════════════════════════════
-// DADOS — MAIO
-// ════════════════════════════════════════════════════
 const MAI = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Nydus", fin: "Sim", h: 0.25, ana: "Leilton" },
@@ -1168,6 +1162,22 @@ document.getElementById("kMes").textContent = topMes.n;
 document.getElementById("kMesSub").textContent = topMes.v + " chamados";
 document.getElementById("kCat").textContent = top10[0][0];
 document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
+
+// Injeção do HTML formatado para o Top 3 Solicitantes no card
+document.getElementById("kTopUser").innerHTML = `
+  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700; border-bottom: 1px dashed var(--border); padding-bottom: 4px;">
+    <span>1º Fabio Consalter</span>
+    <span style="color: var(--muted)">52</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700; border-bottom: 1px dashed var(--border); padding-bottom: 4px;">
+    <span>2º Daniela Mendonça</span>
+    <span style="color: var(--muted)">48</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700;">
+    <span>3º Iolanda Oliveira</span>
+    <span style="color: var(--muted)">45</span>
+  </div>
+`;
 
 // ════════════════════════════════════════════════════
 // PREENCHER CARDS MENSAIS

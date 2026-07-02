@@ -15,7 +15,7 @@
   --mar: #2980b9;
   --abr: #d35400;
   --mai: #16a085;
-  --jun: #8e44ad; /* Nova cor para Junho */
+  --jun: #8e44ad;
 }
 
 * {
@@ -115,7 +115,7 @@ header {
 /* ── KPI CARDS ───────────────────────────── */
 .kpi-row {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr); /* Atualizado para 6 colunas */
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -145,6 +145,7 @@ header {
   height: 3px;
   border-radius: 8px 8px 0 0;
 }
+
 .kpi.c1::after {
   background: var(--accent);
 }
@@ -160,6 +161,9 @@ header {
 .kpi.c5::after {
   background: #7d3c98;
 }
+.kpi.c6::after {
+  background: #2980b9;
+} /* Adicionado KPI 6 */
 
 .kpi-lbl {
   font-size: 0.65rem;
@@ -202,11 +206,14 @@ header {
 .kpi.c5 .kpi-val {
   color: #7d3c98;
 }
+.kpi.c6 .kpi-val {
+  color: #2980b9;
+} /* Adicionado KPI 6 */
 
 /* ── MONTH CARDS ─────────────────────────── */
 .month-row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6 meses agora */
+  grid-template-columns: repeat(6, 1fr);
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -236,7 +243,7 @@ header {
 }
 .mcard.jun {
   border-top-color: var(--jun);
-} /* Novo */
+}
 
 .mcard-title {
   font-size: 0.72rem;
@@ -262,7 +269,7 @@ header {
 }
 .mcard.jun .mcard-title {
   color: var(--jun);
-} /* Novo */
+}
 
 .mstat {
   display: flex;
@@ -446,7 +453,7 @@ header {
 .pill.jun {
   background: rgba(142, 68, 173, 0.11);
   color: #8e44ad;
-} /* Novo */
+}
 
 /* ── FOOTER ──────────────────────────────── */
 footer {
@@ -476,10 +483,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
   .month-row {
-    grid-template-columns: repeat(
-      3,
-      1fr
-    ); /* 6 meses divididos em duas linhas */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
