@@ -1,3 +1,6 @@
+// ════════════════════════════════════════════════════
+// DADOS COMPLETOS — JANEIRO
+// ════════════════════════════════════════════════════
 const JAN = [
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
@@ -137,6 +140,9 @@ const JAN = [
   { cat: "MS365", fin: "Sim", h: 2, ana: "Leilton" },
 ];
 
+// ════════════════════════════════════════════════════
+// DADOS COMPLETOS — FEVEREIRO
+// ════════════════════════════════════════════════════
 const FEV = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
@@ -272,6 +278,9 @@ const FEV = [
   { cat: "Desligamento de Usuário", fin: "Sim", h: 0.5, ana: "Leilton" },
 ];
 
+// ════════════════════════════════════════════════════
+// DADOS COMPLETOS — MARÇO
+// ════════════════════════════════════════════════════
 const MAR = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Desligamento de Usuário", fin: "Sim", h: 1, ana: "Leilton" },
@@ -455,6 +464,9 @@ const MAR = [
   { cat: "Click Compliance", fin: "Sim", h: 0.25, ana: "Leilton" },
 ];
 
+// ════════════════════════════════════════════════════
+// DADOS COMPLETOS — ABRIL
+// ════════════════════════════════════════════════════
 const ABR = [
   { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
   { cat: "Termos", fin: "Sim", h: 0.25, ana: "Leonardo" },
@@ -658,6 +670,9 @@ const ABR = [
   { cat: "Infra", fin: "Sim", h: 6, ana: "Leilton" },
 ];
 
+// ════════════════════════════════════════════════════
+// DADOS COMPLETOS — MAIO
+// ════════════════════════════════════════════════════
 const MAI = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Leilton" },
   { cat: "Nydus", fin: "Sim", h: 0.25, ana: "Leilton" },
@@ -868,196 +883,187 @@ const MAI = [
   { cat: "Infra", fin: "Sim", h: 2, ana: "Leilton" },
 ];
 
+// ════════════════════════════════════════════════════
+// DADOS COMPLETOS — JUNHO
+// ════════════════════════════════════════════════════
 const JUN = [
-  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Provisionamento de Usuário", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4.0, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Infra", fin: "Sim", h: 1.0, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Office", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.75, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Celular", fin: "Sim", h: 2.0, ana: "Leonardo" },
-  { cat: "Celular", fin: "Sim", h: 2.0, ana: "Leonardo" },
-  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Outlook", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
-  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 1.0, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Software", fin: "Sim", h: 0.25, ana: "Leonardo" },
-  { cat: "Rede", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Infra", fin: "Sim", h: 3.0, ana: "Leonardo" },
-  { cat: "Provisionamento de Usuário", fin: "Sim", h: 2.5, ana: "Leonardo" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
-  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 8.0, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Office", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Desligamento de Usuário", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Impressora", fin: "Sim", h: 1.0, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Office", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4.0, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Celular", fin: "Sim", h: 6.0, ana: "Leonardo" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Gestao", fin: "Sim", h: 0.25, ana: "Leonardo" },
-  { cat: "Hardware", fin: "Sim", h: 0.75, ana: "Leonardo" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 2.5, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Windows", fin: "Sim", h: 1.5, ana: "Leilton" },
-  { cat: "MS365", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Office", fin: "Sim", h: 3.0, ana: "Leilton" },
-  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leonardo" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leonardo" },
-  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Segurança", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Infra", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Desligamento de Usuário", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 2.0, ana: "Leilton" },
-  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
-  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "Click Up", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "CFTV", fin: "Sim", h: 1.25, ana: "Guilherme" },
+  { cat: "CFTV", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "CFTV", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 2.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Active Directory", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Outlook", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 2.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 2, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "CFTV", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Impressora", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Servidor", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "software", fin: "Sim", h: 0.75, ana: "Luiz" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Servidor", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "LocaWeb", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Mouse", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 4, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamentos", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Hardware", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Hardware", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "LocaWeb", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressoras", fin: "Sim", h: 0.25, ana: "Guilherme" },
 ];
 
 // ════════════════════════════════════════════════════
@@ -1163,21 +1169,7 @@ document.getElementById("kMesSub").textContent = topMes.v + " chamados";
 document.getElementById("kCat").textContent = top10[0][0];
 document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
 
-// Injeção do HTML formatado para o Top 3 Solicitantes no card
-document.getElementById("kTopUser").innerHTML = `
-  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700; border-bottom: 1px dashed var(--border); padding-bottom: 4px;">
-    <span>1º Fabio Consalter</span>
-    <span style="color: var(--muted)">52</span>
-  </div>
-  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700; border-bottom: 1px dashed var(--border); padding-bottom: 4px;">
-    <span>2º Daniela Mendonça</span>
-    <span style="color: var(--muted)">48</span>
-  </div>
-  <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700;">
-    <span>3º Iolanda Oliveira</span>
-    <span style="color: var(--muted)">45</span>
-  </div>
-`;
+// (O TRECHO QUE DAVA ERRO FOI TOTALMENTE REMOVIDO DAQUI)
 
 // ════════════════════════════════════════════════════
 // PREENCHER CARDS MENSAIS
@@ -1243,7 +1235,7 @@ const fevC = "#8b5cf6";
 const marC = "#10d9a0";
 const abrC = "#d35400";
 const maiC = "#16a085";
-const junC = "#8e44ad"; // Nova Cor
+const junC = "#8e44ad";
 
 // ─── VOLUME POR MÊS ──────────────────────────────
 new Chart(document.getElementById("cVolume"), {
@@ -1505,6 +1497,41 @@ new Chart(document.getElementById("cCompare"), {
     },
   },
 });
+
+// ─── TOP 10 SOLICITANTES — BARRAS CUSTOMIZADAS ─────────────
+const topUsersData = [
+  ["Fabio Consalter", 52],
+  ["Daniela Mendonça", 48],
+  ["Iolanda Oliveira", 45],
+  ["Vanessa Mendes", 44],
+  ["Tanise Vilella", 31],
+  ["Mayra Piesco", 30],
+  ["Josielma Farias", 30],
+  ["Daniela Andrade", 29],
+  ["Fernando Melo", 25],
+  ["Eciel Junior", 23],
+];
+
+const topUsersDiv = document.getElementById("topUsersList");
+if (topUsersDiv) {
+  const userMax = topUsersData[0][1];
+  const userColor = "#e67e22";
+
+  topUsersDiv.innerHTML = "";
+  topUsersData.forEach(([nome, qtd], index) => {
+    const pct = Math.round((qtd / userMax) * 100);
+    topUsersDiv.innerHTML += `
+    <div class="ana-row">
+      <div class="ana-name" style="font-weight: ${index < 3 ? "700" : "normal"}; color: ${index < 3 ? "var(--text)" : "var(--muted)"};">
+        ${index + 1}º ${nome}
+      </div>
+      <div class="ana-track">
+        <div class="ana-fill" style="width:${pct}%;background:${userColor}">${qtd}</div>
+      </div>
+      <div class="ana-count" style="color:${userColor}">${qtd}</div>
+    </div>`;
+  });
+}
 
 // ─── TABELA: RANKING DE CATEGORIAS ───────────────
 (function buildTable() {

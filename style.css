@@ -115,7 +115,7 @@ header {
 /* ── KPI CARDS ───────────────────────────── */
 .kpi-row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Atualizado para 6 colunas */
+  grid-template-columns: repeat(5, 1fr); /* Voltou para 5 colunas */
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -161,9 +161,6 @@ header {
 .kpi.c5::after {
   background: #7d3c98;
 }
-.kpi.c6::after {
-  background: #2980b9;
-} /* Adicionado KPI 6 */
 
 .kpi-lbl {
   font-size: 0.65rem;
@@ -206,9 +203,6 @@ header {
 .kpi.c5 .kpi-val {
   color: #7d3c98;
 }
-.kpi.c6 .kpi-val {
-  color: #2980b9;
-} /* Adicionado KPI 6 */
 
 /* ── MONTH CARDS ─────────────────────────── */
 .month-row {
@@ -338,6 +332,22 @@ header {
 }
 .cw.tall {
   height: 310px;
+}
+
+/* SCROLLBAR CUSTOMIZADA PARA LISTA DE USUÁRIOS */
+#topUsersList::-webkit-scrollbar {
+  width: 6px;
+}
+#topUsersList::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-radius: 4px;
+}
+#topUsersList::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+#topUsersList::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
 }
 
 /* ── ANALYST BARS ────────────────────────── */
