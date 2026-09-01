@@ -1233,7 +1233,7 @@ const JUL = [
     { cat: "Software", fin: "Sim", h: 1, ana: "Leilton" },
     { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
     { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
-    { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leiton" },
+    { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
     { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
     { cat: "Infra", fin: "Sim", h: 0.25, ana: "Leilton" },
     { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
@@ -1291,6 +1291,197 @@ const JUL = [
 ];
 
 // ════════════════════════════════════════════════════
+// DADOS COMPLETOS — AGOSTO
+// ════════════════════════════════════════════════════
+const AGO = [
+  { cat: "Infraestrutura", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Celular", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "MS365", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Scanner", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Celular", fin: "Sim", h: 2, ana: "Leonardo" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Certificado", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Gestão", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Impressora", fin: "Sim", h: 2, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Azure", fin: "Sim", h: 2, ana: "Leonardo" },
+  { cat: "Teams", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 4, ana: "Leonardo" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Azure", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 3, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Periférico", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Outlook", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Hamilton" },
+  { cat: "Azure", fin: "Sim", h: 2, ana: "Hamilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Hardware", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Rateio", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Provisionamento de Usuário", fin: "Sim", h: 4, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Teams", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Periférico", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "OneDrive", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Infraestrutura", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "OneDrive", fin: "Sim", h: 0.25, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Desligamento de Usuário", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Celular", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 1.5, ana: "Leonardo" },
+  { cat: "Sistemas", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Checklist", fin: "Sim", h: 0.5, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Sharepoint", fin: "Sim", h: 1, ana: "Leonardo" },
+  { cat: "Celular", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Gestão", fin: "Sim", h: 0.25, ana: "Leonardo" },
+  { cat: "Mega", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "MS365", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Impressora", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Checklist", fin: "Sim", h: 1.5, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 1, ana: "Leilton" },
+  { cat: "Approvo", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Windows", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Sharepoint", fin: "Sim", h: 2, ana: "Leilton" },
+  { cat: "Segurança", fin: "Sim", h: 0.5, ana: "Leilton" },
+  { cat: "Gestão", fin: "Sim", h: 0.75, ana: "Leilton" },
+  { cat: "Mega", fin: "Sim", h: 0.5, ana: "Leilton" },
+];
+
+// ════════════════════════════════════════════════════
 // FUNÇÕES AUXILIARES
 // ════════════════════════════════════════════════════
 const sumH = (a) => +a.reduce((s, r) => s + r.h, 0).toFixed(1);
@@ -1328,8 +1519,9 @@ const jT = JAN.length,
   aT = ABR.length,
   maT = MAI.length,
   juT = JUN.length,
-  julT = JUL.length;
-const total = jT + fT + mT + aT + maT + juT + julT;
+  julT = JUL.length,
+  agT = AGO.length;
+const total = jT + fT + mT + aT + maT + juT + julT + agT;
 
 const jFin = countFin(JAN, "Sim"),
   fFin = countFin(FEV, "Sim"),
@@ -1337,7 +1529,8 @@ const jFin = countFin(JAN, "Sim"),
   aFin = countFin(ABR, "Sim"),
   maFin = countFin(MAI, "Sim"),
   juFin = countFin(JUN, "Sim"),
-  julFin = countFin(JUL, "Sim");
+  julFin = countFin(JUL, "Sim"),
+  agFin = countFin(AGO, "Sim");
 
 const jNF = countFin(JAN, "Não"),
   fNF = countFin(FEV, "Não"),
@@ -1345,9 +1538,10 @@ const jNF = countFin(JAN, "Não"),
   aNF = countFin(ABR, "Não"),
   maNF = countFin(MAI, "Não"),
   juNF = countFin(JUN, "Não"),
-  julNF = countFin(JUL, "Não");
+  julNF = countFin(JUL, "Não"),
+  agNF = countFin(AGO, "Não");
 
-const totalFin = jFin + fFin + mFin + aFin + maFin + juFin + julFin;
+const totalFin = jFin + fFin + mFin + aFin + maFin + juFin + julFin + agFin;
 const taxa = Math.round((totalFin / total) * 100);
 
 const jH = sumH(JAN),
@@ -1356,8 +1550,9 @@ const jH = sumH(JAN),
   aH = sumH(ABR),
   maH = sumH(MAI),
   juH = sumH(JUN),
-  julH = sumH(JUL);
-const totalH = +(jH + fH + mH + aH + maH + juH + julH).toFixed(1);
+  julH = sumH(JUL),
+  agH = sumH(AGO);
+const totalH = +(jH + fH + mH + aH + maH + juH + julH + agH).toFixed(1);
 
 const avgH = (h, t) => (t ? +(h / t).toFixed(1) : 0);
 const jAvgH = avgH(jH, jT),
@@ -1366,7 +1561,8 @@ const jAvgH = avgH(jH, jT),
   aAvgH = avgH(aH, aT),
   maAvgH = avgH(maH, maT),
   juAvgH = avgH(juH, juT),
-  julAvgH = avgH(julH, julT);
+  julAvgH = avgH(julH, julT),
+  agAvgH = avgH(agH, agT);
 
 const jCM = catMap(JAN),
   fCM = catMap(FEV),
@@ -1374,8 +1570,9 @@ const jCM = catMap(JAN),
   aCM = catMap(ABR),
   maCM = catMap(MAI),
   juCM = catMap(JUN),
-  julCM = catMap(JUL);
-const allCM = catMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN, ...JUL]);
+  julCM = catMap(JUL),
+  agCM = catMap(AGO);
+const allCM = catMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN, ...JUL, ...AGO]);
 
 const jAM = anaMap(JAN),
   fAM = anaMap(FEV),
@@ -1383,8 +1580,9 @@ const jAM = anaMap(JAN),
   aAM = anaMap(ABR),
   maAM = anaMap(MAI),
   juAM = anaMap(JUN),
-  julAM = anaMap(JUL);
-const allAM = anaMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN, ...JUL]);
+  julAM = anaMap(JUL),
+  agAM = anaMap(AGO);
+const allAM = anaMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN, ...JUL, ...AGO]);
 
 const top10 = topN(allCM, 10);
 const top6keys = topN(allCM, 6).map((e) => e[0]);
@@ -1397,6 +1595,7 @@ const meses = [
   { n: "Maio", v: maT },
   { n: "Junho", v: juT },
   { n: "Julho", v: julT },
+  { n: "Agosto", v: agT },
 ];
 const topMes = [...meses].sort((a, b) => b.v - a.v)[0];
 
@@ -1471,6 +1670,14 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["jul5", topKey(julAM)],
   ["jul6", topKey(julCM)],
   ["jul7", "20 dias"],
+  ["ago1", agT],
+  ["ago2", agFin],
+  ["ago3", agNF],
+  ["ago4", agH + "h"],
+  ["ago8", agAvgH + "h"],
+  ["ago5", topKey(agAM)],
+  ["ago6", topKey(agCM)],
+  ["ago7", "22 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
   if (el) el.textContent = val;
@@ -1491,6 +1698,7 @@ const abrC = "#d35400";
 const maiC = "#16a085";
 const junC = "#8e44ad";
 const julC = "#e67e22"; // Nova Cor
+const agoC = "#2ecc71"; // Nova Cor — Agosto
 
 // ─── VOLUME POR MÊS ──────────────────────────────
 new Chart(document.getElementById("cVolume"), {
@@ -1504,12 +1712,13 @@ new Chart(document.getElementById("cVolume"), {
       "Maio",
       "Junho",
       "Julho",
+      "Agosto",
     ],
     datasets: [
       {
         label: "Chamados",
-        data: [jT, fT, mT, aT, maT, juT, julT],
-        backgroundColor: [janC, fevC, marC, abrC, maiC, junC, julC],
+        data: [jT, fT, mT, aT, maT, juT, julT, agT],
+        backgroundColor: [janC, fevC, marC, abrC, maiC, junC, julC, agoC],
         borderRadius: 8,
         borderSkipped: false,
       },
@@ -1538,11 +1747,12 @@ new Chart(document.getElementById("cHoras"), {
       "Maio",
       "Junho",
       "Julho",
+      "Agosto",
     ],
     datasets: [
       {
         label: "Horas",
-        data: [jH, fH, mH, aH, maH, juH, julH],
+        data: [jH, fH, mH, aH, maH, juH, julH, agH],
         backgroundColor: [
           "rgba(245,200,66,.85)",
           "rgba(245,200,66,.65)",
@@ -1551,6 +1761,7 @@ new Chart(document.getElementById("cHoras"), {
           "rgba(22,160,133,.80)",
           "rgba(142,68,173,.80)",
           "rgba(230,126,34,.80)",
+          "rgba(46,204,113,.80)",
         ],
         borderRadius: 8,
         borderSkipped: false,
@@ -1647,18 +1858,19 @@ new Chart(document.getElementById("cStatus"), {
       "Maio",
       "Junho",
       "Julho",
+      "Agosto",
     ],
     datasets: [
       {
         label: "Finalizados",
-        data: [jFin, fFin, mFin, aFin, maFin, juFin, julFin],
+        data: [jFin, fFin, mFin, aFin, maFin, juFin, julFin, agFin],
         backgroundColor: marC,
         borderRadius: 6,
         borderSkipped: false,
       },
       {
         label: "Não Finalizados",
-        data: [jNF, fNF, mNF, aNF, maNF, juNF, julNF],
+        data: [jNF, fNF, mNF, aNF, maNF, juNF, julNF, agNF],
         backgroundColor: "#f4714a",
         borderRadius: 6,
         borderSkipped: false,
@@ -1771,6 +1983,13 @@ new Chart(document.getElementById("cCompare"), {
         borderRadius: 5,
         borderSkipped: false,
       },
+      {
+        label: "Agosto",
+        data: top6keys.map((k) => agCM[k] || 0),
+        backgroundColor: agoC,
+        borderRadius: 5,
+        borderSkipped: false,
+      },
     ],
   },
   options: {
@@ -1788,16 +2007,16 @@ new Chart(document.getElementById("cCompare"), {
 
 // ─── TOP 10 SOLICITANTES — BARRAS CUSTOMIZADAS ─────────────
 const topUsersData = [
-  ["Fabio Consalter", 54],
-  ["Iolanda Oliveira", 48],
-  ["Daniela Mendonça", 48],
-  ["Vanessa Mendes", 44],
-  ["Josielma Farias", 32],
-  ["Tanise Vilella", 31],
-  ["Mayra Piesco", 30],
-  ["Daniela Andrade", 30],
-  ["Fernando Melo", 25],
-  ["Aline Vieira", 23],
+  ["Fabio Consalter", 65],
+  ["Iolanda Oliveira", 57],
+  ["Daniela Mendonça", 49],
+  ["Vanessa Mendes", 47],
+  ["Mayra Piesco", 41],
+  ["Tanise Vilella", 39],
+  ["Josielma Farias", 35],
+  ["Daniela Andrade", 34],
+  ["Aline Vieira", 29],
+  ["Fernando Melo", 27],
 ];
 
 const topUsersDiv = document.getElementById("topUsersList");
@@ -1832,6 +2051,7 @@ if (topUsersDiv) {
       ...Object.keys(maCM),
       ...Object.keys(juCM),
       ...Object.keys(julCM),
+      ...Object.keys(agCM),
     ]),
   ];
 
@@ -1845,6 +2065,7 @@ if (topUsersDiv) {
       mai: maCM[cat] || 0,
       jun: juCM[cat] || 0,
       jul: julCM[cat] || 0,
+      ago: agCM[cat] || 0,
       tot:
         (jCM[cat] || 0) +
         (fCM[cat] || 0) +
@@ -1852,7 +2073,8 @@ if (topUsersDiv) {
         (aCM[cat] || 0) +
         (maCM[cat] || 0) +
         (juCM[cat] || 0) +
-        (julCM[cat] || 0),
+        (julCM[cat] || 0) +
+        (agCM[cat] || 0),
     }))
     .sort((a, b) => b.tot - a.tot)
     .slice(0, 15);
@@ -1865,7 +2087,7 @@ if (topUsersDiv) {
       <tr>
         <th>#</th>
         <th>Categoria</th>
-        <th>Jan</th><th>Fev</th><th>Mar</th><th>Abr</th><th>Mai</th><th>Jun</th><th>Jul</th>
+        <th>Jan</th><th>Fev</th><th>Mar</th><th>Abr</th><th>Mai</th><th>Jun</th><th>Jul</th><th>Ago</th>
         <th>Total</th>
         <th>Distribuição</th>
       </tr>
@@ -1884,6 +2106,7 @@ if (topUsersDiv) {
           <td>${r.mai > 0 ? `<span class="pill mai">${r.mai}</span>` : "—"}</td>
           <td>${r.jun > 0 ? `<span class="pill jun">${r.jun}</span>` : "—"}</td>
           <td>${r.jul > 0 ? `<span class="pill jul">${r.jul}</span>` : "—"}</td>
+          <td>${r.ago > 0 ? `<span class="pill ago">${r.ago}</span>` : "—"}</td>
           <td style="font-weight:800;color:var(--text)">${r.tot}</td>
           <td>
             <div style="background:var(--card2);border-radius:4px;height:6px;width:120px;overflow:hidden;display:inline-block;vertical-align:middle">
